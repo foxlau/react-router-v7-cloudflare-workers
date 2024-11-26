@@ -1,0 +1,42 @@
+{
+  "name": "react-router-v7-cloudflare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "deploy": "react-router build && NODE_ENV=production wrangler deploy",
+    "start": "wrangler dev",
+    "typegen": "wrangler types",
+    "typecheck": "react-router typegen && tsc --build --noEmit",
+    "lint": "biome lint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@react-router/node": "^7.0.1",
+    "@react-router/serve": "^7.0.1",
+    "isbot": "^5.1.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^7.0.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@cloudflare/workers-types": "^4.20241112.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@react-router/dev": "^7.0.1",
+    "@react-router/fs-routes": "^7.0.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.2",
+    "wrangler": "^3.87.0"
+  }
+}

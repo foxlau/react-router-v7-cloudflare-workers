@@ -1,0 +1,12 @@
+/.vscode
+/.react-router
+/.github
+/.husky
+
+/build
+/dist
+/public
+/node_modules
+
+pnpm-lock.yaml
+worker-configuration.d.ts
