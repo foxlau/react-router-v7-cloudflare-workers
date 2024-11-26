@@ -23,7 +23,6 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@cloudflare/workers-types": "^4.20241112.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@react-router/dev": "^7.0.1",
     "@react-router/fs-routes": "^7.0.1",
     "@types/node": "^22.10.0",
@@ -32,6 +31,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "prettier": "^3.4.0",
+    "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
