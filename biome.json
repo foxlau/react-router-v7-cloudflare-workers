@@ -5,11 +5,6 @@
     "clientKind": "git",
     "useIgnoreFile": true
   },
-  "files": {
-    "include": ["app/**/*.js", "app/**/*.ts", "workers/**/*.ts"],
-    "ignoreUnknown": false,
-    "ignore": []
-  },
   "formatter": {
     "enabled": false
   },
