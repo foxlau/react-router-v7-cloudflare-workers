@@ -14,6 +14,12 @@ A supercharged React Router v7 template, forked from [the official Cloudflare te
 - ✨ Prettier code formatting support
 - 📖 [React Router docs](https://reactrouter.com/)
 
+## Links
+
+React Router v7 Authentication Demo Series:
+- [React Router v7 with Better Auth](https://github.com/foxlau/react-router-v7-better-auth) - Authentication demo using Better Auth package
+- [React Router v7 with Remix Auth](https://github.com/foxlau/react-router-v7-remix-auth) - Multi-strategy authentication demo using Remix Auth
+
 ## Getting Started
 
 ### Installation
