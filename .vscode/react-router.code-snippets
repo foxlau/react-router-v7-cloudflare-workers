@@ -8,11 +8,30 @@
 			"}"
 		]
 	},
+	"clientLoader": {
+		"prefix": "/clientLoader",
+		"body": [
+			"",
+			"export async function clientLoader({ serverLoader }: Route.ClientLoaderArgs) {",
+			"  const data = await serverLoader();",
+			"  return data",
+			"}"
+		]
+	},
 	"action": {
 		"prefix": "/action",
 		"body": [
 			"",
 			"export async function action({ request }: Route.ActionArgs) {",
+			"  return null",
+			"}"
+		]
+	},
+	"clientAction": {
+		"prefix": "/clientAction",
+		"body": [
+			"",
+			"export async function clientAction({ request }: Route.ClientActionArgs) {",
 			"  return null",
 			"}"
 		]
@@ -51,11 +70,9 @@
 		"prefix": "/meta",
 		"body": [
 			"",
-			"export function meta({}: Route.MetaArgs) {",
-			"  return [",
-			"    { title: \"Page title\" }",
-			"  ];",
-			"}"
+			"export const meta: Route.MetaFunction = () => [",
+			"  { title: \"Page title\" }",
+			"]"
 		]
 	},
 	"component": {

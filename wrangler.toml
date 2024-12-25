@@ -1,9 +1,14 @@
-name = "react-router-v7-cloudflare"
+#:schema node_modules/wrangler/config-schema.json
 
 workers_dev = true
+name = "rr7-cloudflare-workers"
+main = "./workers/app.ts"
+
+# Compatibility
 compatibility_date = "2024-11-18"
 compatibility_flags = ["nodejs_compat"]
-main = "./build/server/index.js"
+
+# Assets
 assets = { directory = "./build/client/" }
 
 [vars]
