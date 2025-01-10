@@ -11,5 +11,14 @@ compatibility_flags = ["nodejs_compat"]
 # Assets
 assets = { directory = "./build/client/" }
 
+# Observability
+[observability]
+enabled = true
+
+# Enable smart placement to optimize request latency and D1 database access
+# https://developers.cloudflare.com/workers/configuration/smart-placement/
+# [placement]
+# mode = "smart"
+
 [vars]
 VALUE_FROM_CLOUDFLARE = "Hello from Cloudflare"
