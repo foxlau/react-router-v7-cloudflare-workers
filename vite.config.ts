@@ -1,11 +1,9 @@
 import { reactRouter } from "@react-router/dev/vite";
 import { cloudflareDevProxy } from "@react-router/dev/vite/cloudflare";
-
 import tailwindcss from "@tailwindcss/vite";
 import { sessionContextPlugin } from "session-context/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-
 import { getLoadContext } from "./workers/context";
 
 export default defineConfig({
