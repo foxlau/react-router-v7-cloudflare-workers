@@ -14,25 +14,25 @@
   },
   "dependencies": {
     "@react-router/cloudflare": "*",
-    "@tailwindcss/vite": "^4.0.6",
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "*",
-    "session-context": "^0.0.6",
-    "tailwindcss": "^4.0.6"
+    "session-context": "^0.0.6"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@cloudflare/workers-types": "^4.20241230.0",
     "@react-router/dev": "*",
     "@react-router/fs-routes": "*",
+    "@tailwindcss/vite": "^4.0.6",
     "@types/node": "^22.10.0",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "prettier": "^3.4.0",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^4.0.6",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.2",
