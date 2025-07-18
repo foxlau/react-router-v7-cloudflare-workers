@@ -13,29 +13,29 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@react-router/cloudflare": "^7.6.2",
+    "@react-router/cloudflare": "^7.7.0",
     "isbot": "^5.1.28",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.6.2",
+    "react-router": "^7.7.0",
     "session-context": "^0.0.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0",
-    "@cloudflare/workers-types": "^4.20250618.0",
-    "@react-router/dev": "^7.6.2",
-    "@react-router/fs-routes": "^7.6.2",
-    "@tailwindcss/vite": "^4.1.10",
-    "@types/node": "^24.0.3",
+    "@biomejs/biome": "2.1.2",
+    "@cloudflare/workers-types": "^4.20250718.0",
+    "@react-router/dev": "^7.7.0",
+    "@react-router/fs-routes": "^7.7.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^24.0.14",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "prettier-plugin-tailwindcss": "^0.6.12",
-    "tailwindcss": "^4.1.10",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5",
+    "vite": "^7.0.5",
     "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "^4.20.2"
+    "wrangler": "^4.25.0"
   }
 }
